@@ -13,7 +13,7 @@ class FCM:
 		'''
 		Considering X as an NData * n_dim matrix, we should create a membership matrix U
 		whose dimension is NData * c, where c is the number of clusters, initialized by ranodom numbers which satisfy
-		the necessary conditions of membership function
+		the necessary conditions of membership function.
 		'''
 		NData = np.shape(X)[0]
 		# Create an array of the given shape and populate it with random samples from a uniform distribution over [0, 1)
